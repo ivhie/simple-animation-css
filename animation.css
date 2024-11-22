@@ -1,0 +1,25 @@
+
+/*Zoom Animation*/
+.zoom-in {overflow:hidden;}
+.zoom-in:hover img { transform: scale(1.1);  }
+
+/*Button Hover Animation*/
+.circle_click {
+	transition: all .3s ease !important;
+	background: linear-gradient(to left, #e73876 50%, #2dbd5d 50%) !important;
+	background-size: 200% 100% !important;
+	background-position: left bottom !important;
+}
+.circle_click:hover  { background-position:right bottom !important; } 
+
+
+/*Hover Top Animation*/
+.animate-top {
+    transition: all .3s ease-out;
+    position: relative;
+    top: 0;
+}
+
+.animate-top:hover{
+	top:-10px
+}
